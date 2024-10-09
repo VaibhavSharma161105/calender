@@ -3,7 +3,6 @@ import datetime
 import pandas as pd
 remind=[]
 todo=[]
-# reminders=pd.DataFrame('remind':remind,'todo':todo)
 def today():
     x=datetime.datetime.now()
     date=x.strftime("%d")
